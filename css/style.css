@@ -10,12 +10,13 @@
 
 .main-page {
   font-family: 'Roboto', sans-serif;
-  color: var(--navyblue-color);
+  color: var(--slate-color);
+  background-color: var(--white-color);
 }
 
 /* HEADER */
-.navigation {
-  text-decoration: none;
+.list {
+  list-style: none;
 }
 
 .logo {
@@ -23,21 +24,25 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--navyblue-color);
-}
-
-.first {
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
   color: var(--iris-color);
 }
 
-.list-header {
+.first {
+  color: var(--navyblue-color);
+}
+
+.link-head {
   color: var(--navyblue-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.list-header:active {
+.link-head:active {
   color: var(--ocean-color);
 }
 
@@ -45,6 +50,7 @@
   color: var(--slate-color);
   font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
 }
 
 .addres:hover,
@@ -55,45 +61,55 @@
 
 /* MAIN */
 /* text */
+.section-one {
+  background-color: var(--navyblue-color);
+}
+
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white-color);
-  background-color: var(--navyblue-color);
-  height: 600px;
 }
 
-.title2 {
+.title-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
-.title3 {
+.title-three {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .description {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate-color);
 }
 /* text */
 .order-button {
-  width: 169px;
-  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   background: var(--iris-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--white-color);
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.order-button:hover {
+.order-button:focus {
   background-color: var(--ocean-color);
 }
 
