@@ -85,6 +85,7 @@
 .section-four {
   background-color: var(--graywhite-color);
 }
+
 .title {
   font-weight: 700;
   font-size: 56px;
@@ -131,10 +132,7 @@
   letter-spacing: 0.04em;
 }
 
-.order-button:focus {
-  background-color: var(--ocean-color);
-}
-
+.order-button:hover,
 .order-button:focus {
   background-color: var(--ocean-color);
 }
@@ -149,8 +147,15 @@
 .footer-logo {
   color: var(--graywhite-color);
   text-decoration: none;
+  font-family: 'Ralewey', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+  color: var(--iris-color);
 }
 
-.footer-main {
-  background-color: var(--navyblue-color);
+.foter-first-logo {
+  color: var(--graywhite-color);
 }
