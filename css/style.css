@@ -166,10 +166,11 @@
 }
 
 .title-twoportfolio {
-  font-size: 16px;
-  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--slate-color);
+  color: var(--navyblue-color);
 }
 /* MAIN-PORTFOLIO */
 
