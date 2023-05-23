@@ -78,7 +78,6 @@
 /* HEADER */
 
 /* MAIN */
-/* text */
 .section-one {
   background-color: var(--navyblue-color);
 }
@@ -125,7 +124,7 @@
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
-/* text */
+
 .order-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -143,6 +142,29 @@
 }
 
 /* MAIN */
+
+/* MAIN-PORTFOLIO */
+.buttons {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris-color);
+  background-color: var(--graywhite-color);
+}
+
+.buttons:hover {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+
+.buttons:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+/* MAIN-PORTFOLIO */
 
 /* FOOTER */
 .footer-main {
