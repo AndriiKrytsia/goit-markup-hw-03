@@ -14,7 +14,6 @@
   background-color: var(--white-color);
 }
 
-/* HEADER */
 .link {
   text-decoration: none;
 }
@@ -22,6 +21,8 @@
 .list {
   list-style: none;
 }
+
+/* HEADER */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -31,14 +32,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--iris-color);
-}
-
-.first {
   color: var(--navyblue-color);
 }
 
-.link head {
+.first-letter {
+  color: var(--iris-color);
+}
+
+.head-link {
   color: var(--navyblue-color);
   font-weight: 500;
   font-size: 16px;
@@ -46,15 +47,15 @@
   letter-spacing: 0.02em;
 }
 
-.link head:hover {
+.head-link:hover {
   color: var(--ocean-color);
 }
 
-.link head:focus {
+.head-link:focus {
   color: var(--ocean-color);
 }
 
-.link head:active {
+.head-link:active {
   color: var(--ocean-color);
 }
 
@@ -140,22 +141,26 @@
 /* MAIN */
 
 /* FOOTER */
+.footer-main {
+  background-color: var(--navyblue-color);
+}
+
 .guide {
   color: var(--graywhite-color);
 }
 
 .footer-logo {
+  font-family: 'Raleway', sans-serif;
   color: var(--graywhite-color);
   text-decoration: none;
-  font-family: 'Ralewey', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03;
   text-transform: uppercase;
-  color: var(--iris-color);
+  color: var(--graywhite-color);
 }
 
-.foter-first-logo {
-  color: var(--graywhite-color);
+.foter-first {
+  color: var(--iris-color);
 }
