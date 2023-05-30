@@ -8,6 +8,18 @@
   --graywhite-color: #f4f4fd;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .main-page {
   font-family: 'Roboto', sans-serif;
   color: var(--slate-color);
@@ -22,9 +34,34 @@
   list-style: none;
 }
 
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* HEADER */
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.addres-head {
+  font-style: normal;
+}
 
 .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -37,9 +74,18 @@
 
 .first-letter {
   color: var(--navyblue-color);
+  margin-right: 76px;
+}
+
+.head-list:not(:last-child) {
+  margin-right: 40px;
 }
 
 .head-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--navyblue-color);
   font-weight: 500;
   font-size: 16px;
@@ -47,20 +93,14 @@
   letter-spacing: 0.02em;
 }
 
-.head-link:hover {
-  color: var(--ocean-color);
-}
-
-.head-link:focus {
-  color: var(--ocean-color);
-}
-
+.head-link:hover,
+.head-link:focus,
 .head-link:active {
   color: var(--ocean-color);
 }
 
-.addres-head {
-  font-style: normal;
+.list-addres:not(:last-child) {
+  margin-right: 40px;
 }
 
 .addres {
@@ -78,58 +118,31 @@
 /* HEADER */
 
 /* MAIN */
+/* SECTION-1 */
 .section-one {
   background-color: var(--navyblue-color);
-}
-
-.section-three {
-  background-color: var(--white-color);
-}
-
-.section-four {
-  background-color: var(--graywhite-color);
-}
-
-.list-img {
-  background-color: var(--white-color);
+  height: 600px;
+  margin-bottom: 120px;
+  text-align: center;
 }
 
 .title {
+  padding-top: 188px;
+  padding-bottom: 48px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
 }
 
-.title-two {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--navyblue-color);
-}
-
-.title-three {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--navyblue-color);
-}
-
-.description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate-color);
-}
-
 .order-button {
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   background: var(--iris-color);
@@ -144,10 +157,115 @@
 .order-button:focus {
   background-color: var(--ocean-color);
 }
+/* SECTION-1 */
+
+/* SECTION-2 */
+.section-two {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.list-advantages {
+  display: flex;
+  gap: 8px;
+  margin: 0 156px;
+}
+
+.list-group {
+  margin-right: 24px;
+}
+
+.title-unnecessary {
+  display: none;
+}
+/* SECTION-2 */
+
+/* SECTION-3 */
+.section-three {
+  background-color: var(--white-color);
+  margin-bottom: 120px;
+}
+
+.image-gad {
+  margin: 0 156px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* SECTION-3 */
+
+/* SECTION-4 */
+.section-four {
+  background-color: var(--graywhite-color);
+}
+
+.titl-team {
+  padding-top: 120px;
+}
+
+.teams-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 156px;
+}
+
+.list-img {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-name {
+  padding-top: 32px;
+}
+
+.team-skill {
+  padding-bottom: 32px;
+}
+/* SECTION-4 */
+
+.title-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navyblue-color);
+  margin-bottom: 72px;
+}
+
+.title-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue-color);
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
 
 /* MAIN */
 
 /* MAIN-PORTFOLIO */
+.title-portfolio {
+  display: none;
+}
+
 .buttons {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -157,6 +275,17 @@
   letter-spacing: 0.04em;
   color: var(--iris-color);
   background-color: var(--graywhite-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin: 0 24px;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 
 .buttons:hover {
@@ -169,22 +298,63 @@
   background-color: var(--ocean-color);
 }
 
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 156px 120px;
+}
+
+.list-works {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+
+.list-works:nth-child(3n) {
+  margin-right: 0;
+}
+
+.list-works:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.image-portfolio {
+  display: block;
+}
+
 .title-twoportfolio {
+  padding-top: 32px;
+  margin-bottom: 8px;
+  margin-left: 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue-color);
 }
+
+.description-portfolio {
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+
+.portfolio-content {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 /* MAIN-PORTFOLIO */
 
 /* FOOTER */
 .footer-main {
   background-color: var(--navyblue-color);
+  text-align: start;
+  padding: 100px 0;
 }
 
 .guide {
   color: var(--graywhite-color);
+  width: 264px;
+  margin-top: 16px;
 }
 
 .footer-logo {
@@ -200,4 +370,8 @@
 
 .foter-first {
   color: var(--graywhite-color);
+}
+
+.footer-list {
+  margin: 0 156px;
 }
