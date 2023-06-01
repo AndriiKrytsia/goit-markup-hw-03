@@ -302,6 +302,11 @@ ul {
   background-color: var(--ocean-color);
 }
 
+.container-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
