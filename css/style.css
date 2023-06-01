@@ -357,8 +357,7 @@ ul {
 
 .guide {
   color: var(--graywhite-color);
-  width: 264px;
-  margin-top: 16px;
+  max-width: 264px;
 }
 
 .footer-logo {
@@ -370,6 +369,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-color);
+  margin-bottom: 16px;
 }
 
 .foter-first {
