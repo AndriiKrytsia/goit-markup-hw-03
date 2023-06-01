@@ -127,7 +127,6 @@ ul {
   background-color: var(--navyblue-color);
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
   text-align: center;
 }
 
@@ -169,7 +168,6 @@ ul {
 .section-two {
   display: flex;
   padding: 120px 0;
-  margin-bottom: 120px;
 }
 
 .list-advantages {
@@ -190,8 +188,15 @@ ul {
   width: calc((100% - 72px) / 4);
 }
 
-.title-unnecessary {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 /* SECTION-2 */
 
@@ -280,8 +285,20 @@ ul {
 /* MAIN */
 
 /* MAIN-PORTFOLIO */
-.title-portfolio {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .buttons {
@@ -309,25 +326,24 @@ ul {
 .buttons:hover {
   color: var(--white-color);
   background-color: var(--ocean-color);
+  border: 1px solid transparent;
 }
 
 .buttons:focus {
   color: var(--white-color);
   background-color: var(--ocean-color);
-}
-
-.container-portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  border: 1px solid transparent;
 }
 
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 156px 120px;
 }
 
-.list-works {
+.list-portfolio {
+  gap: 24px;
+}
+/* .list-works {
   margin-right: 24px;
   margin-bottom: 48px;
 }
@@ -353,7 +369,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue-color);
-}
+} */
 
 .description-portfolio {
   margin-bottom: 32px;
