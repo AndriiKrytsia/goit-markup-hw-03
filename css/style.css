@@ -168,17 +168,26 @@ ul {
 /* SECTION-2 */
 .section-two {
   display: flex;
+  padding: 120px 0;
   margin-bottom: 120px;
 }
 
 .list-advantages {
   display: flex;
   gap: 8px;
-  margin: 0 156px;
 }
 
 .list-group {
   margin-right: 24px;
+}
+
+.list-group:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
+.list-group:last-child {
+  margin-right: 0px;
+  width: calc((100% - 72px) / 4);
 }
 
 .title-unnecessary {
@@ -189,13 +198,16 @@ ul {
 /* SECTION-3 */
 .section-three {
   background-color: var(--white-color);
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .image-gad {
-  margin: 0 156px;
   display: flex;
-  justify-content: space-around;
+  gap: 24px;
+}
+
+.image-gad:first-child {
+  width: calc((100% - 48px) / 3);
 }
 
 /* SECTION-3 */
@@ -203,6 +215,7 @@ ul {
 /* SECTION-4 */
 .section-four {
   background-color: var(--graywhite-color);
+  padding: 120px 0;
 }
 
 .titl-team {
@@ -211,8 +224,7 @@ ul {
 
 .teams-list {
   display: flex;
-  justify-content: space-around;
-  margin: 0 156px;
+  gap: 24px;
 }
 
 .list-img {
