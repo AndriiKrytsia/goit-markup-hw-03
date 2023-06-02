@@ -103,6 +103,11 @@ ul {
   font-style: normal;
 }
 
+.list-addres-head {
+  display: flex;
+  align-items: center;
+}
+
 .list-addres:not(:last-child) {
   margin-right: 40px;
 }
