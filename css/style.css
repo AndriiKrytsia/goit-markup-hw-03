@@ -98,6 +98,7 @@ ul {
 .list-addres-head {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .list-addres:not(:last-child) {
@@ -124,7 +125,6 @@ ul {
   background-color: var(--navyblue-color);
   padding-top: 188px;
   padding-bottom: 188px;
-  text-align: center;
 }
 
 .title {
