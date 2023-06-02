@@ -53,7 +53,7 @@ ul {
   align-items: center;
 }
 
-.logo {
+.logo-header {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -62,14 +62,11 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--iris-color);
+  margin-right: 76px;
 }
 
 .first-letter {
   color: var(--navyblue-color);
-}
-
-.logo-block {
-  margin-right: 76px;
 }
 
 .navigation {
