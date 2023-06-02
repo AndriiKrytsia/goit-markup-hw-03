@@ -186,6 +186,10 @@ ul {
   gap: 24px;
 }
 
+.list-group:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -199,6 +203,9 @@ ul {
   overflow: hidden;
 }
 
+.text-sectiontwo {
+  width: 264px;
+}
 /* SECTION-2 */
 
 /* SECTION-3 */
