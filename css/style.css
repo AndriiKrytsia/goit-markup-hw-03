@@ -373,11 +373,6 @@ ul {
   padding: 100px 0;
 }
 
-.guide {
-  color: var(--graywhite-color);
-  max-width: 264px;
-}
-
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
@@ -395,6 +390,7 @@ ul {
   color: var(--graywhite-color);
 }
 
-.footer-list {
-  margin: 0 156px;
+.guide {
+  color: var(--graywhite-color);
+  max-width: 264px;
 }
