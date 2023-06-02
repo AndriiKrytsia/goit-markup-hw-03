@@ -131,8 +131,12 @@ ul {
 /* SECTION-1 */
 .section-one {
   background-color: var(--navyblue-color);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  text-align: center;
 }
 
 .title {
@@ -143,16 +147,19 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-button {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -171,7 +178,6 @@ ul {
 
 /* SECTION-2 */
 .section-two {
-  display: flex;
   padding: 120px 0;
 }
 
@@ -180,7 +186,7 @@ ul {
   gap: 24px;
 }
 
-.list-advantages:first-child {
+.list-advantages li:first-child {
   width: calc((100% - 72px) / 4);
 }
 
