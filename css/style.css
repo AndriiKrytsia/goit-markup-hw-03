@@ -186,7 +186,7 @@ ul {
   gap: 24px;
 }
 
-.list-advantages li:first-child {
+.list-group:first-child {
   width: calc((100% - 72px) / 4);
 }
 
