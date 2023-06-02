@@ -172,11 +172,7 @@ ul {
 
 .list-advantages {
   display: flex;
-  gap: 8px;
-}
-
-.list-group {
-  margin-right: 24px;
+  gap: 24px;
 }
 
 .list-advantages:first-child {
@@ -324,13 +320,13 @@ ul {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
-  margin: 0 24px;
 }
 
 .list-buttons {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
+  /* margin-top: 96px; */
+  gap: 24px;
   margin-bottom: 72px;
 }
 
@@ -349,10 +345,8 @@ ul {
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
-}
-
-.list-portfolio {
   gap: 24px;
+  row-gap: 48px;
 }
 
 .title-twoportfolio {
@@ -394,6 +388,7 @@ ul {
   text-transform: uppercase;
   color: var(--iris-color);
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .foter-first {
